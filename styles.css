@@ -1,0 +1,54 @@
+body{
+	box-sizing: border-box;
+
+}
+.navbar-brand{
+	padding-left: 30px;
+}
+.img-fluid{
+	position: absolute;
+
+}
+form{
+	position: relative;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.main_div{
+		background-image: url(p2.jpg);
+	}
+	.output{
+		width: 90%;
+		margin-right: auto;
+	    margin-left: auto;
+	    font-family: 'Bebas Neue', cursive;
+	    padding-bottom: 20px;
+	}
+
+
+@media (min-width: 530px){
+	.img-fluid{
+		visibility: hidden;
+	}
+	.main_div{
+		background-image: url(penquin3.jpg) ;
+		
+	}
+	.output{
+		width: 70%;
+		margin-right: auto;
+	    margin-left: auto;
+	    font-family: 'Bebas Neue', cursive;
+	    padding-bottom: 20px;
+	}
+	
+
+
+  
+}
+
+
