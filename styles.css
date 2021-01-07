@@ -51,4 +51,58 @@ form{
   
 }
 
+/*.................svg............*/
+.nContainer{
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
 
+}
+.nContainer svg {
+	width: 100%;
+}
+#hat, #gilter{
+	animation: hatMove 5s infinite alternate;
+}
+
+@keyframes hatMove{
+	0%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(-50px);
+	}
+}
+
+#mani{
+	animation: maniMove 15s infinite alternate;
+	transform-origin: top;
+	transform-box: fill-box;
+}
+
+@keyframes maniMove{
+	10%{
+		transform: rotateZ(-10deg);
+	}
+	50%{
+		transform: rotateZ(0deg);
+	}
+	90%{
+		transform: rotateZ(-10deg);
+	}
+}
+
+#paper{
+	animation: paperMove 5s infinite alternate;
+    transform-origin: center;
+	transform-box: fill-box;
+}
+
+@keyframes paperMove{
+	0%{
+		transform: rotateZ(-2deg);
+	}
+	100%{
+		transform: rotateZ(2deg);
+	}
+}
