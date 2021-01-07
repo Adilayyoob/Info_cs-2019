@@ -19,6 +19,10 @@ function enter(d) {
 			document.getElementById("regNo1").innerHTML= d[i].regno;
 			break;
 		}
+		else
+		{
+			document.getElementById("name").innerHTML= "NOT FOUND";
+		}
 		
 	}
 
