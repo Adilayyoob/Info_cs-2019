@@ -22,6 +22,8 @@ function enter(d) {
 		else
 		{
 			document.getElementById("name").innerHTML= "NOT FOUND";
+			document.getElementById("rollNo1").innerHTML= " ";
+			document.getElementById("regNo1").innerHTML= " ";
 		}
 		
 	}
